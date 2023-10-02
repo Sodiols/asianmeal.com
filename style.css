@@ -226,6 +226,70 @@
 /** ======= hero close =======  */
 
 
+/* ! ====== todo you preapre we handle open ==== */
+
+.prepare-handle h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+.prepare-handle img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.prepare-handle-txt {
+    width: 600px;
+    position: absolute;
+    top: 156vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 130px;
+    margin-left: 60px;
+    padding: 30px 20px;
+    padding-top: 30px;
+}
+
+.prepare-handle-txt p {
+    line-height: 25px;
+    font-size: 17px;
+    color: #000;
+}
+
+.prepare-handle-txt h3 {
+    font-weight: 200;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.prepare-handle img:hover {
+    transform: scaleX(3.3s);
+}
+
+.prepare-handle .btn {
+    background-color: var(--main-color);
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+.prepare-handle .btn:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+/* ! ====== todo you preapre we handle close ==== */
+
+
 /* todo find us open */
 
 .find-us {
