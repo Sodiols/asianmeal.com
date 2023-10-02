@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root {
+    --poppins-font-family: 'Poppins', sans-serif;
+    --roboto-font-family: 'Roboto Condensed', sans-serif;
+    --main-color: #8a2be2;
+    --cut-price-color: #a3a3a3;
+    --transperancy20-bg: #f1e6fc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins-font-family);
+}
+
+
+/* !======== navbar open =======*/
+.navbar {
+    background-color: white;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 80px;
+    top: 0;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-brand span {
+    color: var(--main-color);
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+
+/* todo navabar btn css */
+
+.navbar-btns {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.login-buttons .btn {
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.login-buttons .log-in-btn {
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.login-buttons .log-in-btn:hover {
+    color: white;
+    background: var(--main-color);
+}
+
+.login-buttons .sign-up-btn {
+    background: var(--main-color);
+    color: white;
+}
+
+.login-buttons .sign-up-btn:hover {
+    background: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+/*todo lang-cart design css */
+.lang-cart {
+    display: flex;
+}
+
+.lang-cart li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.invisible-lang {
+    display: none;
+    position: absolute;
+    color: var(--main-color);
+}
+
+.lang-cart li,
+.lang-cart i {
+    cursor: pointer;
+    transition: all ease-out .3s;
+}
+
+.lang-cart li {
+    padding: 6px 15px;
+    font-weight: 500;
+}
+
+.lang-cart li:hover {
+    background: var(--transperancy20-bg);
+}
+
+.lang-cart ul .arrow {
+    color: var(--main-color);
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.lang-cart .for-cart {
+    margin-top: -10px;
+}
+
+.lang-cart .cart {
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+.lang-cart .cart:hover {
+    background: var(--transperancy20-bg);
+}
+
+/* !======== navbar close ======*/
+
+
+
+/** ======= hero open =======  */
+.hero {
+    margin-top: 50px;
+    width: 100%;
+    height: 60vh;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-txt {
+    margin-left: 60px;
+}
+
+.hero-txt h2 {
+    font-weight: 100;
+    width: 100%;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+.hero-txt form {
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 13px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    display: flex;
+}
+
+.hero-txt form .input-loc {
+    background: white;
+    border: 1px solid #f1e6fc;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.hero-txt form input {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 100;
+    outline: none;
+    border: none;
+}
+
+.hero-txt form .input-loc i {
+    margin-right: 110px;
+    color: var(--main-color);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: all ease-out .3s;
+}
+
+.hero-txt form .input-loc i:hover {
+    background: var(--transperancy20-bg);
+}
+
+.hero form button {
+    padding: 10px 15px;
+    background: var(--main-color);
+    color: #fff;
+    margin-top: -1px;
+    margin-left: 10px;
+    transition: all ease-out .1s;
+    font-size: 14px;
+}
+
+.hero form button:hover {
+    color: #fff;
+    background: var(--main-color);
+    transform: scale(1.1);
+}
+
+.hero-img {
+    margin-left: 40px;
+    width: 50%;
+}
+
+.hero-img img {
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+
+/** ======= hero close =======  */
+
+
+/* todo find us open */
+
+.find-us {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.find-us h2 {
+    font-weight: 100;
+}
+
+.find-us .col-6 {
+    position: relative;
+    width: 320px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.find-us .col-6 img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    transition: 0.3s;
+}
+
+.find-us .col-6 img:hover {
+    filter: opacity(.70);
+}
+
+.find-us .col-6 button {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    padding: 8px 16px;
+    color: #363636;
+    background-color: #fff;
+    border: 1px solid #f1e6fc;
+    border-radius: 15px;
+    font-weight: 100;
+}
+
+/* todo find us close */
