@@ -332,3 +332,63 @@
 }
 
 /* todo find us close */
+
+
+
+
+/*! ==== office lunch open ===== */
+
+.office-lunch h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+.office-lunch img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.office-lunch-txt {
+    width: 560px;
+    position: absolute;
+    top: 687vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 130px;
+    margin-left: 60px;
+    padding: 30px 20px;
+    padding-top: 30px;
+}
+
+.office-lunch-txt h3 {
+    font-size: 25px;
+}
+
+.office-lunch-txt p {
+    color: #000;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.office-lunch .btn {
+    background-color: var(--main-color);
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+.office-lunch .btn:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+/*! ==== office lunch close ===== */
